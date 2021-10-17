@@ -1,0 +1,76 @@
+   @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 40px;
+    line-height: 28px;
+    box-sizing:border-box;
+}
+h2, h3{
+    font-family: 'Arvo', serif;
+    font-weight: 700px;
+    margin:0;
+   
+}
+a{
+    text-decoration: none;
+}
+#testimonial{
+    background: #f63854;
+    text-align: center;
+    margin: 0;
+}  
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.section{
+   padding: 60px 0;
+}
+.img-thumb{
+    text-align: center
+    margin: 15px;
+}
+.img-thumb img{
+    width: inherit!important;
+    border-radius: 50px;
+    display: inline-block;
+    margin: auto;
+}
+h2 a, h3 a{
+    color:#333333;
+}
+.testimonial-item{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+p{
+    color:#222;
+}
+.staricon{
+    color: #f63854;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    color:#f63854;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#f63854;
+}
+.owl-theme .owl-dots .owl-dot span {
+    
+background: #f63854;
+border: 2px solid #fff;
+}
+@media only screen and (max-width:1199.98px ) {
+    .container{
+        max-width: 100%;
+        padding: 0 60px;
+    }
+}
